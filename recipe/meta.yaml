@@ -1,5 +1,5 @@
 {% set name = "chainlit" %}
-{% set version = "2.4.201" %}
+{% set version = "2.5.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/Chainlit/chainlit/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f24bcb1aab01145aba0a40b0b22756845a1790a64973684f599395c87d8f1589
+  sha256: 6384a0f1be1a549051559bc72fe174f771e7b5876e288905c0f391417daf2e90
 
 build:
   entry_points:
@@ -29,7 +29,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - httpx >=0.23.0
-    - literalai 0.1.103
+    - literalai 0.1.201
     - dataclasses-json >=0.6.7,<0.7.0
     - fastapi >=0.115.3,<0.116
     - starlette >=0.41.2,<0.42.0
