@@ -1,5 +1,5 @@
 {% set name = "chainlit" %}
-{% set version = "2.6.6" %}
+{% set version = "2.6.7" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/Chainlit/chainlit/archive/refs/tags/{{ version }}.tar.gz
-  sha256: d185ac1aaeeaca6d95e9f6799407492703eb00577031b31772497ee98e3a8218
+  sha256: c7e07bb7a7098e38f9e11585da6784be374b698102d2ea32e626de3b1848b892
 
 build:
   entry_points:
